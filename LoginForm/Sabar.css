@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.sidebar{
+    width: 20%;
+    height: 800px;
+    background-color: rgb(157, 182, 164);
+    /* Use for change postiton of the element to center  */
+    margin:  0px auto; 
+    margin-top: 15px;
+    
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+ul li {
+    padding: 10px;
+}
+ul li :hover{
+    background-color: blanchedalmond;
+    border-radius: 10px;
+}
+.first{
+    background-color: red;
+    width: 100%;
+    border-radius: 10px;
+}
